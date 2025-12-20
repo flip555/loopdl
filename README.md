@@ -1,23 +1,18 @@
 # LoopDL Speaker Teardown
 
 <p align="center">
-  <img src="images/20251218_215008.jpg" alt="LoopDL Speaker External" width="300"/>
+  <img src="images/20251218_215008.jpg" alt="LoopDL Speaker External" width="300"/>  
+  <img src="images/20251218_220017.jpg" alt="LoopDL Speaker External" width="300"/>
+  <img src="images/20251218_215715.jpg" alt="LoopDL Speaker External" width="300"/>
+  
 </p>
 
-<!-- Add more preview images if you want, e.g.:
-<p align="center">
-  <img src="images/next_photo.jpg" alt="Main Board" width="600"/>
-</p>
-<p align="center">
-  <img src="images/battery_photo.jpg" alt="Battery Close-up" width="600"/>
-</p>
--->
 
 This repository documents my teardown of the **LoopDL** (also known as Loop DL), a subsidized 5G smart speaker launched for £1 (now £95) in the UK. It runs Android 15 with built-in cellular connectivity via eSIM.
 
 ## Hardware Overview
 
-The `/images/` folder contains photos of the full disassembly process in approximate order:
+The [images](https://github.com/flip555/loopdl/tree/main/images) folder contains photos of the full disassembly process in approximate order:
 
 - External views and initial opening
 - Speakers
