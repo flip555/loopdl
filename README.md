@@ -1,9 +1,9 @@
 # LoopDL Speaker Teardown
 
 <p align="center">
-  <img src="images/20251218_215008.jpg" alt="LoopDL Speaker External" width="300"/>  
-  <img src="images/20251218_220017.jpg" alt="LoopDL Speaker External" width="300"/>
-  <img src="images/20251218_215715.jpg" alt="LoopDL Speaker External" width="300"/>
+  <img src="images/20251218_215008.jpg" alt="LoopDL Speaker External" width="200"/>  
+  <img src="images/20251218_220017.jpg" alt="LoopDL Speaker External" width="200"/>
+  <img src="images/20251218_215715.jpg" alt="LoopDL Speaker External" width="200"/>
   
 </p>
 
