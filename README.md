@@ -4,9 +4,12 @@
   <img src="images/20251218_215008.jpg" alt="LoopDL Speaker External" width="200"/>  
   <img src="images/20251218_220017.jpg" alt="LoopDL Speaker External" width="200"/>
   <img src="images/20251218_223450.jpg" alt="LoopDL Speaker External" width="200"/>
-  
 </p>
-
+<p align="center">
+  <img src="images/20251223_180003.jpg" alt="LoopDL Speaker External" width="200"/>
+  <img src="images/20251223_175030.jpg" alt="LoopDL Speaker External" width="200"/>  
+  <img src="images/20251223_194540.jpg" alt="LoopDL Speaker External" width="200"/>
+</p>
 
 This repository documents my teardown of the **LoopDL** (also known as Loop DL), a subsidized 5G smart speaker launched for £1 (now £95) in the UK. It runs Android 15 with built-in cellular connectivity via eSIM.
 
@@ -18,6 +21,8 @@ The [images](https://github.com/flip555/loopdl/tree/main/images) folder contains
 - Speakers
 - Main board with SoC
 - Battery
+- USB/eSIM daughterboard
+- Screen
 
 (Preview image above is resized for better README viewing – click it to see full resolution. All photos are available in full size in the `/images/` folder.)
 
@@ -25,14 +30,13 @@ The [images](https://github.com/flip555/loopdl/tree/main/images) folder contains
 
 - **SoC**: MediaTek MT6877V (Dimensity series, supports 5G)
 - **Battery**: Model U497082PV – 4250mAh / 32.73Wh, 7.7V nominal (8.8V charging limit), manufactured by Shenzhen Utility Energy Co., Ltd. (Production date: October 2025)
-- **eSIM**: Integrated eUICC chip (two profiles: bootstrapping/"Rain" simulation from China Mobile HK, and operational Gamma/Three UK profile)
+- **eSIM**: Integrated eUICC chip located on the USB/eSIM daughterboard (two profiles: bootstrapping/"Rain" simulation from China Mobile HK, and operational Gamma/Three UK profile)
 
-
-### Note on advertised battery capacity:
+### Note on the advertised battery capacity:
 
 While actual capacity testing has not been performed, the physical construction and labeling indicate it is one unified pack (not two separate packs stacked in parallel). There is no evidence of parallel stacking that would yield a true 8500 mAh at ~7.7–8.8V.
 
-The "~8500 mAh" figure sometimes seen in marketing or listings is likely an "equivalent" rating calculated by expressing the pack's capacity at a single-cell nominal voltage (~3.85V), a common (though misleading) practice when comparing to single-cell batteries. The actual rated capacity remains 4250 mAh at 7.7V, delivering the same total energy of 32.73 Wh.
+The "8500 mAh" figure advertised by LoopDL is likely an "equivalent" rating calculated by expressing the pack's capacity at a single-cell nominal voltage (~3.85V), a common (though misleading) practice when comparing to single-cell batteries. The actual rated capacity remains 4250 mAh at 7.7V, delivering the same total energy of 32.73 Wh.
 
 ## Rooting the Device
 
