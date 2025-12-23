@@ -28,11 +28,11 @@ The [images](https://github.com/flip555/loopdl/tree/main/images) folder contains
 - **eSIM**: Integrated eUICC chip (two profiles: bootstrapping/"Rain" simulation from China Mobile HK, and operational Gamma/Three UK profile)
 
 
-### Note on construction and advertised battery capacity:
+### Note on advertised battery capacity:
 
 While actual capacity testing has not been performed, the physical construction and labeling indicate it is one unified pack (not two separate packs stacked in parallel). There is no evidence of parallel stacking that would yield a true 8500 mAh at ~7.7–8.8V.
 
-The "~8500 mAh" figure sometimes seen in marketing or listings is likely an "equivalent" rating calculated by expressing the pack's capacity at a single-cell nominal voltage (~3.85V), a common (though misleading) practice when comparing to single-cell batteries. The actual rated capacity remains 4250 mAh at 7.7V, delivering the same total energy of 32.73 Wh. For accurate cross-product comparisons, always use watt-hours (Wh) rather than mAh alone.
+The "~8500 mAh" figure sometimes seen in marketing or listings is likely an "equivalent" rating calculated by expressing the pack's capacity at a single-cell nominal voltage (~3.85V), a common (though misleading) practice when comparing to single-cell batteries. The actual rated capacity remains 4250 mAh at 7.7V, delivering the same total energy of 32.73 Wh.
 
 ## Rooting the Device
 
